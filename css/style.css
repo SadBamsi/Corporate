@@ -154,6 +154,8 @@ body {
 }
 
 		/***platforms***/
+.platforms {
+}
 .platforms .wrap{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -173,14 +175,62 @@ body {
 }
 .platforms-text-block {
 	padding-top: 190px;
+	padding-bottom: 160px;
 	flex: 1;
 	text-align: left;
 	margin-right: 150px;
 }
 .platforms-img-block {
-	flex: 1;
+	width: 550px;
 	background-color: #ededed;
-	background: -webkit-linear-gradient(45deg, rgba(255, 109, 109, .8));
-	background: -o-linear-gradient(45deg, rgba(255, 109, 109, .8));
-	background: linear-gradient(45deg, rgba(255, 109, 109, .8));
+	background: -webkit-linear-gradient(150deg, #ededed 65%, rgb(255, 109, 109) 30%);
+	background: -o-linear-gradient(150deg, #ededed 65%, rgb(255, 109, 109) 30%);
+	background: linear-gradient(150deg, #ededed 65%, rgb(255, 109, 109) 30%);
+}
+
+			/*****Awesome features****/
+
+.features {
+	background: url(../img/features-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	top: -60px;
+	z-index: -1;
+	padding: 140px 0 185px 0;
+	text-align: center;
+}
+.features-uptitle {
+	margin-bottom: 15px;
+}
+.features-title {
+	margin-bottom: 90px;
+}
+.features-block-area {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.features-block {
+	margin-right: 45px;
+	max-width: 342px;
+}
+.features-block-logo {
+	margin-bottom: 30px;
+}
+.features-block-title {
+	color: #282828;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.features-block-text {
+	font-size: 16px;
+	font-weight: 500;
+	color: rgba(40, 40, 40, 0.56);
+	line-height: 26px;
 }
